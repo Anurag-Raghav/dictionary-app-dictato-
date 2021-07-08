@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictato</title>
+</head>
+<body>
+    <div class="conatiner">
+        <form action="/api" method="POST">
+        <label for="name">Name</label><br>
+        <input type="text" name="word"><br>
+        <button type="submit">Submit</button>
+        </form>
+        <h3>Word:</h3>{{word}}
+        <h2>Meaning: </h2> {{result}}
+
+    </div>
+</body>
+</html>
